@@ -6,7 +6,7 @@
 
 > additions came from real world usage and inspiration from libraries such as [ramda](https://github.com/ramda/ramda)
 
-sticking with it's heritage though, it's goal is to still be *fast*
+inline with it's heritage it's goal is to still be *fast*:
 
 &roarr; functions are stand-alone and self-contained (ie they do not call/use each other)
 
@@ -18,13 +18,13 @@ sticking with it's heritage though, it's goal is to still be *fast*
 
 &nbsp;&nbsp;&nbsp;(es6 version may support node 4+ usage in the future, it is yet fully feature/test complete)
 
-#### warning: &crarr; 
+##### warnings: &crarr; 
 functions contained herein:
 - should **not** be considerd "drop-in" replacements for this or that library 
 - *may not* follow spec or follow spec *way too much*
 - might just do stupid things you hate
 
-*but who cares..*
+*who cares?*
 - this is just a simple set of functions
 - 100% test coverage (es5)
 - minimal versioning/api changes
