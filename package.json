@@ -1,0 +1,33 @@
+{
+  "name": "last.js",
+  "version": "0.0.1",
+  "private": true,
+  "description": "small collection of utility functions",
+  "main": "index.js",
+  "watch": {
+    "test": "test/*.js"
+  },
+  "scripts": {
+    "test": "covert test/*.js | faucet",
+    "watch": "nodemon -q -x 'npm test'",
+    "build": "node test/last.test.js && cp ./src/es5/last.js ./lib/last.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacious/last.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spacious/last.js/issues"
+  },
+  "homepage": "https://github.com/spacious/last.js",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "covert": "^1.1.0",
+    "faucet": "0.0.1",
+    "nodemon": "^1.8.1",
+    "npm-watch": "0.0.1",
+    "tape": "^4.2.2"
+  }
+}
